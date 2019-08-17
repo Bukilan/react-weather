@@ -1,0 +1,102 @@
+.card{
+  width: 700px;
+  height: 300px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.location{
+  position: relative;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.card-body{
+  position: relative;
+  padding-top: 20%;
+  padding-left: 28%;
+  text-align: left;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000d4c;
+}
+
+a:visited {
+  color: #000d4c;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #6dd5f0;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #6dd5f0;
+}
+
+a:active {
+  background: #6dd5f0;
+  color: #000d4c;
+}
+
+.card-head {
+  position: relative;
+  text-align: center;
+}
+
+  .weather-icon{
+    position: absolute;
+    right: 30%;
+  }
+
+  .card-head-in{
+    position: absolute;
+    left: 15%;
+  }
+
+    .weather-time{
+      position: relative;
+      left: 30%;
+    }
+
+    .weather-temp{
+      position: absolute;
+      top: 60%;
+      left: 30%;
+    }
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/Roboto-Light.ttf');
+}
+
+html {
+  background-color: #b2d8ff;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
